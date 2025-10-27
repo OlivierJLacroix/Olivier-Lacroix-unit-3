@@ -1,8 +1,20 @@
 body {
     font-family: Verdana;
 }
-
+a:last-child::after{
+    content:" ";
+}
+body section{
+    color:orange;
+}
 header img {
        Width : 100%;  
        Height : 45%; 
+}
+footer img{
+    width: 46.5cm;
+    height: 5cm;
+}
+footer h2{
+    float: right;
 }
