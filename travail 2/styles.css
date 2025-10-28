@@ -2,7 +2,7 @@ body{
     font-family: times,serif;
     color: rgb(255,255,255);
     width: 100%;
-    background-image:url("fond.jpg");
+    background-image:url("images/fond.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
@@ -18,11 +18,18 @@ color: aquamarine;
 }
 #texte{
 font-size:35px;
+
 }
 .citation{
-width: 7cm;
-height: 5cm;
-padding: 1em;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+background-color: white;
+margin: 0 auto;
+padding: .5%;
+width: 80%;
+gap: 2rem;
 }
 .génie p{
 font-size: 28px;
