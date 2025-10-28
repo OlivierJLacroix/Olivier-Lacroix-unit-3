@@ -1,4 +1,4 @@
-.body{
+body{
     font-family: times,serif;
     color: rgb(255,255,255);
     width: 100%;
@@ -6,17 +6,17 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
-.titre{
+#titre{
     background-color: rgb(33, 216, 216);
 }
-.sous-titre{
+#sous-titre{
 text-align:center;
 font-style: italic;
 font-weight: bold;
 font-size: 35px;
 color: aquamarine;
 }
-.texte{
+#texte{
 font-size:35px;
 }
 .citation{
