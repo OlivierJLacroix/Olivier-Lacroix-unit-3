@@ -1,4 +1,4 @@
-body{
+.body{
     font-family: times,serif;
     color: rgb(255,255,255);
     width: 100%;
@@ -15,4 +15,22 @@ font-style: italic;
 font-weight: bold;
 font-size: 35px;
 color: aquamarine;
+}
+.texte{
+font-size:35px;
+}
+.citation{
+width: 7cm;
+height: 5cm;
+padding: 1em;
+}
+.génie p{
+font-size: 28px;
+width:35em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: justify;
+line-height: 1-2;
+}
+.génie p:hover{
+    transform:scale(1.2);
 }
